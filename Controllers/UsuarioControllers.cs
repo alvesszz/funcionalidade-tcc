@@ -8,6 +8,13 @@ namespace FuncionalidadeTCC.Controllers
     [Route("[Controller]")]
     public class UsuarioControllers : ControllerBase
     {
+       private readonly DataContext _context;
+
+        public UsuarioControllers(DataContext context)
+        {
+            _context = context
+        }
+
         private static List<Usuario> usuarios = new List<Usuario>()
         {
             new Usuario() {Cpf = 123456789 , id = 1 , senha = " 123@" , nome = "Fabia", email = "fabia@etec.com" },

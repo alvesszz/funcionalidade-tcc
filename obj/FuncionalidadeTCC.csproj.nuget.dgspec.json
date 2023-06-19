@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3AI\\allan e fabia\\FuncionalidadeTCC\\FuncionalidadeTCC.csproj": {}
+    "C:\\Users\\Sérgio B jordan\\Documents\\fabia\\fabiaallan\\funcionalidade-tcc\\FuncionalidadeTCC.csproj": {}
   },
   "projects": {
-    "D:\\3AI\\allan e fabia\\FuncionalidadeTCC\\FuncionalidadeTCC.csproj": {
+    "C:\\Users\\Sérgio B jordan\\Documents\\fabia\\fabiaallan\\funcionalidade-tcc\\FuncionalidadeTCC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3AI\\allan e fabia\\FuncionalidadeTCC\\FuncionalidadeTCC.csproj",
+        "projectUniqueName": "C:\\Users\\Sérgio B jordan\\Documents\\fabia\\fabiaallan\\funcionalidade-tcc\\FuncionalidadeTCC.csproj",
         "projectName": "FuncionalidadeTCC",
-        "projectPath": "D:\\3AI\\allan e fabia\\FuncionalidadeTCC\\FuncionalidadeTCC.csproj",
-        "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\3AI\\allan e fabia\\FuncionalidadeTCC\\obj\\",
+        "projectPath": "C:\\Users\\Sérgio B jordan\\Documents\\fabia\\fabiaallan\\funcionalidade-tcc\\FuncionalidadeTCC.csproj",
+        "packagesPath": "C:\\Users\\Sérgio B jordan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sérgio B jordan\\Documents\\fabia\\fabiaallan\\funcionalidade-tcc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Sérgio B jordan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +44,8 @@
               "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.7, )"
             },
@@ -81,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
